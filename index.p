@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -84,4 +84,132 @@
         <section id="visi" class="container mx-auto px-6 mb-24">
             <div class="relative">
                 <div class="absolute -left-4 top-0 w-1 h-full bg-neon"></div>
-  …
+                <p class="text-neon font-orbitron tracking-widest">ARAH GERAK KAMI</p>
+                <h2 class="text-[clamp(2rem,5vw,4rem)] font-orbitron font-bold mt-2 mb-10">
+                    VISI & <span class="text-neon-pink text-neon">MISI</span>
+                </h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Kartu Visi -->
+                <div class="bg-dark-light/50 backdrop-blur-sm p-8 rounded-r-3xl rounded-bl-3xl border border-neon/30 shadow-neon-blue relative overflow-hidden">
+                    <div class="absolute -top-6 -right-6 w-20 h-20 bg-neon/20 rounded-full blur-xl"></div>
+                    <h3 class="text-2xl font-orbitron text-neon mb-4">VISI</h3>
+                    <p class="text-lg leading-relaxed text-gray-200">
+                        "Menjadi lembaga pendidikan vokasi yang <span class="text-neon font-semibold">Unggul, Berkarakter, Berwawasan Lingkungan</span>, dan mampu menghasilkan lulusan kompeten serta berdaya saing global di era digital."
+                    </p>
+                </div>
+
+                <!-- Kartu Misi -->
+                <div class="bg-dark-light/50 backdrop-blur-sm p-8 rounded-l-3xl rounded-br-3xl border border-neon-pink/30 shadow-neon-pink">
+                    <h3 class="text-2xl font-orbitron text-neon-pink mb-4">MISI</h3>
+                    <ul class="space-y-3 text-gray-200">
+                        <li class="flex gap-3"><span class="text-neon-pink">▹</span> Pembelajaran berbasis Teaching Factory sesuai industri.</li>
+                        <li class="flex gap-3"><span class="text-neon-pink">▹</span> Membentuk karakter iman, disiplin, dan wirausaha.</li>
+                        <li class="flex gap-3"><span class="text-neon-pink">▹</span> Lingkungan hijau, aman, dan inovatif.</li>
+                        <li class="flex gap-3"><span class="text-neon-pink">▹</span> Kemitraan luas dengan berbagai pihak.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Jurusan - Desain Horizontal Scroll Unik -->
+        <section id="jurusan" class="mb-24">
+            <div class="container mx-auto px-6 mb-10">
+                <p class="text-neon-pink font-orbitron tracking-widest">KEAHLIAN KAMI</p>
+                <h2 class="text-[clamp(2rem,5vw,3rem)] font-orbitron font-bold mt-2">9 PROGRAM UNGGULAN</h2>
+            </div>
+            
+            <div class="flex gap-6 overflow-x-auto px-6 pb-8 scrollbar-hide">
+                <!-- Kartu 1 -->
+                <div class="min-w-[320px] bg-dark-light/60 backdrop-blur-md rounded-2xl p-6 border border-neon/20 hover:border-neon/60 transition-all hover:scale-105 hover:shadow-neon-blue">
+                    <div class="w-12 h-12 rounded-lg bg-neon/10 text-neon flex items-center justify-center text-xl mb-4">💻</div>
+                    <h3 class="font-orbitron font-semibold text-lg mb-2">Teknik Jaringan</h3>
+                    <p class="text-sm text-gray-400 mb-3">Server, Keamanan Siber, Fiber Optik.</p>
+                    <div class="text-xs text-neon font-medium">✓ Sertifikat Mikrotik & Cisco</div>
+                </div>
+
+                <!-- Kartu 2 -->
+                <div class="min-w-[320px] bg-dark-light/60 backdrop-blur-md rounded-2xl p-6 border border-neon-yellow/20 hover:border-neon-yellow/60 transition-all hover:scale-105 hover:shadow-neon-yellow">
+                    <div class="w-12 h-12 rounded-lg bg-neon-yellow/10 text-neon-yellow flex items-center justify-center text-xl mb-4">🌱</div>
+                    <h3 class="font-orbitron font-semibold text-lg mb-2">Energi Biomasa</h3>
+                    <p class="text-sm text-gray-400 mb-3">Konversi limbah kelapa/sawit jadi energi.</p>
+                    <div class="text-xs text-neon-yellow font-medium">✓ Satu-satunya di daerah</div>
+                </div>
+
+                <!-- Kartu 3 -->
+                <div class="min-w-[320px] bg-dark-light/60 backdrop-blur-md rounded-2xl p-6 border border-neon-pink/20 hover:border-neon-pink/60 transition-all hover:scale-105 hover:shadow-neon-pink">
+                    <div class="w-12 h-12 rounded-lg bg-neon-pink/10 text-neon-pink flex items-center justify-center text-xl mb-4">⚡</div>
+                    <h3 class="font-orbitron font-semibold text-lg mb-2">Teknik Listrik</h3>
+                    <p class="text-sm text-gray-400 mb-3">Instalasi, Otomasi PLC, Standar PLN.</p>
+                    <div class="text-xs text-neon-pink font-medium">✓ Sertifikasi Kompetensi</div>
+                </div>
+
+                <!-- Kartu 4 -->
+                <div class="min-w-[320px] bg-dark-light/60 backdrop-blur-md rounded-2xl p-6 border border-neon/20 hover:border-neon/60 transition-all hover:scale-105 hover:shadow-neon-blue">
+                    <div class="w-12 h-12 rounded-lg bg-neon/10 text-neon flex items-center justify-center text-xl mb-4">🗺️</div>
+                    <h3 class="font-orbitron font-semibold text-lg mb-2">Teknik Geomatika</h3>
+                    <p class="text-sm text-gray-400 mb-3">Pemetaan Drone, GPS, Total Station.</p>
+                    <div class="text-xs text-neon font-medium">✓ Dicari BPN & Tambang</div>
+                </div>
+
+                <!-- Kartu 5 -->
+                <div class="min-w-[320px] bg-dark-light/60 backdrop-blur-md rounded-2xl p-6 border border-neon-yellow/20 hover:border-neon-yellow/60 transition-all hover:scale-105 hover:shadow-neon-yellow">
+                    <div class="w-12 h-12 rounded-lg bg-neon-yellow/10 text-neon-yellow flex items-center justify-center text-xl mb-4">🔧</div>
+                    <h3 class="font-orbitron font-semibold text-lg mb-2">Teknik Permesinan</h3>
+                    <p class="text-sm text-gray-400 mb-3">Mesin CNC, Bubut, CAD/CAM.</p>
+                    <div class="text-xs text-neon-yellow font-medium">✓ Industri Manufaktur</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Fasilitas - Ikon Besar -->
+        <section id="fasilitas" class="container mx-auto px-6 mb-24">
+            <h2 class="text-center text-[clamp(1.8rem,4vw,2.5rem)] font-orbitron font-bold mb-16">
+                <span class="text-neon-yellow">FASILITAS</span> PENUNJANG
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="group">
+                    <div class="w-20 h-20 mx-auto rounded-full bg-dark-light flex items-center justify-center text-3xl text-neon group-hover:shadow-neon-blue group-hover:scale-110 transition-all">💻</div>
+                    <p class="mt-4 font-medium">Lab Komputer</p>
+                </div>
+                <div class="group">
+                    <div class="w-20 h-20 mx-auto rounded-full bg-dark-light flex items-center justify-center text-3xl text-neon-pink group-hover:shadow-neon-pink group-hover:scale-110 transition-all">🏭</div>
+                    <p class="mt-4 font-medium">Bengkel Industri</p>
+                </div>
+                <div class="group">
+                    <div class="w-20 h-20 mx-auto rounded-full bg-dark-light flex items-center justify-center text-3xl text-neon-yellow group-hover:shadow-neon-yellow group-hover:scale-110 transition-all">📚</div>
+                    <p class="mt-4 font-medium">Perpustakaan Digital</p>
+                </div>
+                <div class="group">
+                    <div class="w-20 h-20 mx-auto rounded-full bg-dark-light flex items-center justify-center text-3xl text-neon group-hover:shadow-neon-blue group-hover:scale-110 transition-all">🕌</div>
+                    <p class="mt-4 font-medium">Sarana Ibadah</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Kontak - Pojok Kiri Bawah -->
+        <section id="kontak" class="container mx-auto px-6">
+            <div class="bg-dark-light/70 backdrop-blur-md rounded-3xl p-10 border-t-2 border-neon-pink/40 relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-40 h-40 bg-neon-pink/5 rounded-bl-full"></div>
+                <h2 class="text-2xl font-orbitron text-neon-pink mb-6">HUBUNGI KAMI</h2>
+                <div class="grid md:grid-cols-3 gap-8 relative z-10">
+                    <div>
+                        <p class="text-gray-400 text-sm mb-1">ALAMAT</p>
+                        <p>Jl. SKB No.1, Sungai Beringin, Tembilahan, Indragiri Hilir, Riau 29214</p>
+                    </div>
+                    <div>
+                        <p class="text-gray-400 text-sm mb-1">KONTAK</p>
+                        <p>WA: 0812 6810 2595</p>
+                        <p>Email: info@smkn2tembilahan.sch.id</p>
+                    </div>
+                    <div class="flex items-end">
+                        <p class="text-xs text-gray-500">© 2024 • Siap Kerja, Siap Berkompetisi</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
